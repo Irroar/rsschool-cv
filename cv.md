@@ -16,6 +16,11 @@
 
 ### About me
 
+Stress-resistant, knows how to devote a lot of time to learning new technologies and processing new information. 
+I approach the search for solutions to problems responsibly. 
+I am fluent enough in English to read the technical documentation. 
+I know how to communicate with the team during the development process, and I also had a little experience using Scrum.
+
 ### Skills
 
 * HTML5, CSS3
@@ -59,8 +64,7 @@ Sakrament IT, Minsk (August 2015 - May 2016) - Front-end Developer: creating CSS
 
 
 ### Languages
-
-* English - Upper Intermediate (according to the EF SET online test)
-![](https://cdn.efset.org/efset-widget/img/certificate_59.png)
 * Russian - Native
 * Ukrainian - Native
+* English - Upper Intermediate (according to the EF SET online test)
+![](https://cdn.efset.org/efset-widget/img/certificate_59.png)
