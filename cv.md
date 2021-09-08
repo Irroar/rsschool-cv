@@ -3,6 +3,8 @@
 
 ### Junior Frontend Developer
 
+---
+
 ### Contact information
 
 **Phone:** +380 99 270 65 89 (UA), +375 29 854 16 79 (BY)
@@ -13,6 +15,7 @@
 
 [Discord](https://discordapp.com/users/229632464748806145)
 
+---
 
 ### About me
 
@@ -21,12 +24,16 @@ I approach the search for solutions to problems responsibly.
 I am fluent enough in English to read the technical documentation. 
 I know how to communicate with the team during the development process, and I also had a little experience using Scrum.
 
+---
+
 ### Skills
 
 * HTML5, CSS3
 * Javascript Basics
 * Git
 * SQL
+
+---
 
 ### Code example
 *Function for making query to get data from Zendesk API with Basic Authorization*
@@ -53,15 +60,20 @@ async function query(q, page, domain, token, apiAdress) {
 }
 ```
 
+---
+
 ### Experience
 
 Sakrament IT, Minsk (August 2015 - May 2016) - Front-end Developer: creating CSS/SASS styles for school electronic textbooks + proofreading.
+
+---
 
 ### Education
 
 * **Nova Kakhovka Instrument Making College** - Software Development (Junior Specialist)
 * **Belarusian State University of Informatics and Radioelectronics**, Faculty of Computer Systems and Networks (3 years)
 
+---
 
 ### Languages
 * Russian - Native
