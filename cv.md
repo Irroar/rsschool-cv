@@ -50,8 +50,12 @@ async function query(q, page, domain, token, apiAdress) {
 
 ### Experience
 
+Sakrament IT, Minsk (August 2015 - May 2016) - Front-end Developer: creating CSS/SASS styles for school electronic textbooks + proofreading.
 
 ### Education
+
+* **Nova Kakhovka Instrument Making College** - Software Development (Junior Specialist)
+* **Belarusian State University of Informatics and Radioelectronics**, Faculty of Computer Systems and Networks (3 years)
 
 
 ### Languages
