@@ -38,7 +38,7 @@ I know how to communicate with the team during the development process, and I al
 ### Code example
 *Function for making query to get data from Zendesk API with Basic Authorization*
 
-```
+```javascript
 async function query(q, page, domain, token, apiAdress) {
     let url = new URL(domain + apiAdress);
     let params = [['query', q], ['page', page]];
