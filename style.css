@@ -11,7 +11,7 @@ body {
     font-weight: normal;
     font-style: normal;
     font-size: 25px;
-    color: black;
+    color: #000;
     margin: 0;
     background-color: #b1e0be;
 }
@@ -103,7 +103,13 @@ ul,
     font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: #000;
+}
+
+.header__link:hover,
+.header__link:active {
+  color: #a020f0;
+  transition: 0.5s all;
 }
 
 
@@ -153,11 +159,11 @@ ul,
 }
 
 .keyword {
-    color: blue;
+    color: #0000ff;
 }
 
 .function {
-    color: purple;
+    color: #a020f0;
 }
 
 .tab {
@@ -165,7 +171,7 @@ ul,
 }
 
 .string {
-    color: gray;
+    color: #808080;
 }
 
 .code_block {
@@ -224,7 +230,7 @@ ul,
 
     .header__burger span {
         position: absolute;
-        background-color: black;
+        background-color: #000;
         left: 20px;
         width: 100%;
         height: 2px;
@@ -236,7 +242,7 @@ ul,
     .header__burger:after {
         content: '';
         position: absolute;
-        background-color: black;
+        background-color: #000;
         width: 100%;
         height: 2px;
         left: 20px;
