@@ -1,0 +1,302 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 25px;
+    color: black;
+    margin: 0;
+    background-color: #b1e0be;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+}
+
+section ul li::before {
+    content: "\21AC";
+    color:#000;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.5em; 
+    margin-left: -1em;
+}
+
+
+h1,
+h3 {
+    font-family: 'Koh Santepheap', cursive;
+    font-weight: 700;
+}
+
+p, 
+ul,
+.code_block {
+    font-family: 'Koh Santepheap', cursive;
+    font-weight: 400; 
+}
+
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.header-container {
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+    background-color: #b1e0be;
+}
+
+.header-container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #b1e0be;
+}
+
+.header__body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header__burger {
+    display: none;
+}
+
+.header__list {
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.header__list li {
+    list-style: none;
+    margin: 0px 0px 0px 20px;
+}
+
+.header__link {
+    font-weight: 200;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+
+
+.section__title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container {
+    padding: 40px 10px 10px 40px;
+}
+
+.container-white {
+    background-color: #ede5ce;
+    border-radius: 13%;
+    padding: 40px 10px 10px 40px;
+}
+
+.about {
+    margin-top: 80px;
+}
+
+.about__photo {
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    margin: 0px auto 0px auto;
+    max-width: 100%;
+}
+
+.header__title,
+.header__subtitle {
+    text-align: center;
+}
+
+.header__subtitle {
+    padding-bottom: 50px;
+}
+
+:target::before {
+    content: "";
+    display: block;
+    height: 80px; 
+    margin: -80px 0 0;
+}
+
+.keyword {
+    color: blue;
+}
+
+.function {
+    color: purple;
+}
+
+.tab {
+    padding-left: 25px;
+}
+
+.string {
+    color: gray;
+}
+
+.code_block {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.footer__body {
+    position: relative;
+    height: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 10px 0px;
+}
+
+.footer__github {
+    display: block;
+    width: 50px;
+    height: 80px;
+    left: 0;
+    top: 0;
+}
+
+.footer__rss {
+    display: block;
+    width: 80px;
+    height: 80px;
+    left: 0;
+    top: 0;
+
+}
+
+@media (max-width: 1060px) {
+    body.lock {
+        overflow: hidden;
+    }
+
+    .header__body {
+        height: 50px;
+    }
+
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+        margin-right: 50px;
+        margin-top: 15px;
+    }
+
+    .header__burger span {
+        position: absolute;
+        background-color: black;
+        left: 20px;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s;
+    }
+
+    .header__burger:before,
+    .header__burger:after {
+        content: '';
+        position: absolute;
+        background-color: black;
+        width: 100%;
+        height: 2px;
+        left: 20px;
+        transition: all 0.3s;
+    }
+
+    .header__burger:before {
+        top: 0px;
+    }
+
+    .header__burger:after {
+        bottom: 0px;
+    }
+
+    .header__burger.active:before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+
+    .header__burger.active span {
+        transform: scale(0);
+    }
+
+    .header__burger.active:after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+
+    .header__menu {
+        position: fixed;
+        top: -100%;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        padding: 50px 10px 10px 20px;
+        background-color: #b1e0be;
+        transition: all 0.5s;
+    }
+
+    .header__menu.active {
+        top: 0px;
+    }
+
+    .header__list {
+        display: block;
+    }
+
+    .header__list li {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .header__link {
+        font-size: 24px;
+    }
+
+    .container-white,
+    .container,
+    .footer__list {
+        margin-left: auto;
+        margin-right: -57%;
+    }
+}
