@@ -124,6 +124,11 @@ ul,
     padding: 40px 10px 10px 40px;
 }
 
+.container,
+.container-white {
+    scroll-behavior: smooth;
+}
+
 .about {
     margin-top: 80px;
 }
